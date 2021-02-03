@@ -1,0 +1,126 @@
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Raleway', sans;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #e8e3df;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+header {
+
+    border-bottom: 1px solid grey;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    background-image: url(../imgs/pic1.png);
+    width: 312px;
+    height: 144px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    grid-gap: 30px;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.credits {
+    text-align: right;
+}
+
+
+.logo img:not(:first-child) {
+    display: none;
+}
+
+
+.joke {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    font-family: 'Shadows Into Light', sans;
+}
+
+#l2 {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    display: none;
+    font-family: 'Shadows Into Light', sans;
+}
+
+#l3 {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    display: none;
+    font-family: 'Shadows Into Light', sans;
+}
+
+#l4 {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    display: none;
+    font-family: 'Shadows Into Light', sans;
+}
+
+#l5 {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    display: none;
+    font-family: 'Shadows Into Light', sans;
+}
+
+#l6 {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: url(../imgs/cursor.png), 32px, auto;
+    display: none;
+    font-family: 'Shadows Into Light', sans;
+}
